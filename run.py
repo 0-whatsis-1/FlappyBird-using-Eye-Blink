@@ -79,8 +79,8 @@ class FlappyBird:
 
 
 	def run(self):
-		ap = argparse.ArgumentParser()		# Construct the argument parse
-	   #Parse the arguments
+		ap = argparse.ArgumentParser()		# Construct the argument parser
+		#Parse the arguments
 		ap.add_argument("-p", "--shape-predictor", required=True)
 		args = vars(ap.parse_args())
 
