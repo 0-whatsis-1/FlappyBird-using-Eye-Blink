@@ -13,8 +13,9 @@ Dependencies :
 opencv3, imutils, scipy, dlib, pygame
 
 Usage : 
-Run the file run.py in the terminal also specify the command line argument
+Run the file run.py in the terminal, also specify the command line argument
 (--shape-predictor) followed by the the facial landmark
 detector(shape_predictor_68_face_landmarks.dat).
+
 python3 run.py --shape-predictor shape_predictor_68_face_landmarks.dat
 
